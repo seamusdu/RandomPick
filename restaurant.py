@@ -12,7 +12,7 @@ def restaurant():
         t = random.randint(0,3)
         selections = [u"紫荆",u"桃李",u"玉树",u"芝兰",u"清芬",u"听涛",u"万人",u"荷园",u"闻馨",u"丁香",u"寓园",u"澜园"]
         #selections = [u"吐司",u"汉堡",u"次坞打面",u"兰州拉面",u"河南烩面",u"自己煮面",u"麻辣烫",u"面疙瘩",u"黄焖鸡",u"骨头饭",u"青椒肉丝盖饭",u"牛肉炒饭",u"下馆子"]
-        cheers = ["GO GO GO ",u"走起！",u"赶紧的，到饭点了",u"别忘了请杜逸康吃饭"]
+        cheers = ["GO GO GO ",u"走起！",u"赶紧的，到饭点了"]
         if selections[r]:
                 tkMessageBox.showinfo(u"餐厅选择",u"目标："+selections[r]+"\n"+cheers[t])
 
